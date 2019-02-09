@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4c40f7e-937c-4c6e-9d02-10654f376681" name="Default Changelist" comment="" />
+    <list default="true" id="e4c40f7e-937c-4c6e-9d02-10654f376681" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/UserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/com/wyattburkhardt/primegen/UserInputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/primeGen/main/java/com/wyattburkhardt/primegen/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/primeGen/main/java/com/wyattburkhardt/primegen/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/primeGen/main/resources/com/wyattburkhardt/primegen/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/primeGen/resources/com/wyattburkhardt/primegen/HelloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wyattburkhardt/primegen/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wyattburkhardt/primegen/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/com/wyattburkhardt/primegen/HelloTest.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,40 +26,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wyattburkhardt/primegen/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/Hello.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/UserInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/com/wyattburkhardt/primegen/HelloTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/primeGen.iml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/UserInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding>
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/com/wyattburkhardt/primegen/UserInputTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,12 +87,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/wyattburkhardt/primegen/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/Hello.java" />
         <option value="$PROJECT_DIR$/src/test/resources/com/wyattburkhardt/primegen/HelloTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/InputScanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wyattburkhardt/primegen/Application.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/wyattburkhardt/primegen/InputScannerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/UserInterface.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/wyattburkhardt/primegen/UserInterfaceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/InputValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/UserInput.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/wyattburkhardt/primegen/UserInputTest.java" />
       </list>
     </option>
   </component>
@@ -76,57 +117,219 @@
     <option name="width" value="1400" />
     <option name="height" value="1334" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="prime-generator" type="58d84e3e:PackageViewProjectNode" />
+              <item name="primeGen" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="primeGen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="primeGen" type="462c0819:PsiDirectoryNode" />
+              <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prime-generator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="primeGen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="primeGen" type="462c0819:PsiDirectoryNode" />
+              <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prime-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="primeGen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="primeGen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="primeGen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="primeGen" type="462c0819:PsiDirectoryNode" />
+              <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prime-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="primegen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="primeGen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="primeGen" type="462c0819:PsiDirectoryNode" />
+              <item name="prime-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prime-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="primegen" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
             <path>
-              <item name="primeGen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="primeGen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="primeGen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="primeGen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="primegen" type="462c0819:PsiDirectoryNode" />
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wyattburkhardt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wyattburkhardt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="primegen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wyattburkhardt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wyattburkhardt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="primegen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wyattburkhardt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="prime-generator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="primeGen" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wyattburkhardt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="primegen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -139,7 +342,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549725516331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549755751442" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -156,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HelloTest">
+  <component name="RunManager" selected="JUnit.UserInputTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.wyattburkhardt.primegen.Application" />
       <module name="primeGen" />
@@ -170,17 +373,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.wyattburkhardt.Main" />
-      <module name="primeGen" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InputScannerTest.testInputLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="primeGen" />
       <extension name="coverage">
         <pattern>
@@ -189,21 +382,74 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="resources.com.wyattburkhardt.primegen" />
-      <option name="MAIN_CLASS_NAME" value="resources.com.wyattburkhardt.primegen.HelloTest" />
+      <option name="MAIN_CLASS_NAME" value="resources.com.wyattburkhardt.primegen.InputScannerTest" />
+      <option name="METHOD_NAME" value="testInputLoop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="primeGen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resources.com.wyattburkhardt.primegen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="resources.com.wyattburkhardt.primegen" />
+      <option name="MAIN_CLASS_NAME" value="resources.com.wyattburkhardt.primegen.UserInputTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserInputTest.testEndProgram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="primeGen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resources.com.wyattburkhardt.primegen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="resources.com.wyattburkhardt.primegen" />
+      <option name="MAIN_CLASS_NAME" value="resources.com.wyattburkhardt.primegen.UserInputTest" />
+      <option name="METHOD_NAME" value="testEndProgram" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInterfaceTest.testInputLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="primeGen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resources.com.wyattburkhardt.primegen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="resources.com.wyattburkhardt.primegen" />
+      <option name="MAIN_CLASS_NAME" value="resources.com.wyattburkhardt.primegen.UserInterfaceTest" />
+      <option name="METHOD_NAME" value="testInputLoop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.HelloTest" />
+      <item itemvalue="JUnit.InputScannerTest.testInputLoop" />
+      <item itemvalue="JUnit.UserInputTest" />
+      <item itemvalue="JUnit.UserInputTest.testEndProgram" />
+      <item itemvalue="JUnit.UserInterfaceTest.testInputLoop" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HelloTest" />
+        <item itemvalue="JUnit.UserInputTest" />
+        <item itemvalue="JUnit.UserInterfaceTest.testInputLoop" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.UserInputTest.testEndProgram" />
+        <item itemvalue="JUnit.InputScannerTest.testInputLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -221,64 +467,93 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloTest - 2019.02.09 at 10h 17m 29s.xml">
-      <configuration name="HelloTest" configurationId="JUnit" />
+    <history-entry file="UserInterfaceTest_testInputLoop - 2019.02.09 at 18h 06m 51s.xml">
+      <configuration name="UserInterfaceTest.testInputLoop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloTest - 2019.02.09 at 10h 17m 47s.xml">
-      <configuration name="HelloTest" configurationId="JUnit" />
+    <history-entry file="UserInterfaceTest_testInputLoop - 2019.02.09 at 18h 07m 58s.xml">
+      <configuration name="UserInterfaceTest.testInputLoop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInterfaceTest_testInputLoop - 2019.02.09 at 18h 09m 02s.xml">
+      <configuration name="UserInterfaceTest.testInputLoop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInterfaceTest_testInputLoop - 2019.02.09 at 18h 30m 24s.xml">
+      <configuration name="UserInterfaceTest.testInputLoop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInterfaceTest_testInputLoop - 2019.02.09 at 18h 31m 38s.xml">
+      <configuration name="UserInterfaceTest.testInputLoop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInterfaceTest_testInputLoop - 2019.02.09 at 18h 33m 02s.xml">
+      <configuration name="UserInterfaceTest.testInputLoop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInterfaceTest_testInputLoop - 2019.02.09 at 18h 33m 40s.xml">
+      <configuration name="UserInterfaceTest.testInputLoop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInputTest - 2019.02.09 at 18h 39m 58s.xml">
+      <configuration name="UserInputTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInputTest - 2019.02.09 at 18h 40m 17s.xml">
+      <configuration name="UserInputTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInputTest - 2019.02.09 at 18h 41m 56s.xml">
+      <configuration name="UserInputTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1157" y="23" width="1400" height="1334" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23269513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32930756" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32930756" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32930756" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32930756" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.25925925" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32930756" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/UserInterface.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/UserInterface.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/wyattburkhardt/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wyattburkhardt/Main.java" />
     <entry file="file://$PROJECT_DIR$/primeGen.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="345">
           <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyattburkhardt/primegen/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -291,12 +566,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/com/wyattburkhardt/primegen/HelloTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/wyattburkhardt/primegen/UserInterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wyattburkhardt/primegen/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/InputValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wyattburkhardt/primegen/UserInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/wyattburkhardt/primegen/UserInputTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
           </folding>
         </state>
       </provider>

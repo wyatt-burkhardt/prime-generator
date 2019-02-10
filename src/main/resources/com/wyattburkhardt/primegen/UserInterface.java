@@ -18,7 +18,7 @@ public class UserInterface {
             printRequest();
             String scanInput = scanner.next();
             userInput = new UserInput(scanInput);
-            InputParser parser = new InputParser(userInput.value);
+            PrimeGeneratorEratosthenes generator = new PrimeGeneratorEratosthenes();
             if (userInput.isRange) {
                 // get actual prime number data
                 System.out.println("WOOOOOOOOOOOH");

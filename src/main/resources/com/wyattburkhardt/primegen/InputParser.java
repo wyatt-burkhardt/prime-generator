@@ -1,6 +1,7 @@
 package main.resources.com.wyattburkhardt.primegen;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -16,6 +17,7 @@ public class InputParser {
         List<String> parts = Arrays.asList(input.split("(?:[.]{3})"));
         List<String> cleanedValues = removeEmptyStrings(parts);
         List<Integer> partsAsInts = convertList(cleanedValues, s -> Integer.parseInt(s));
+        Collections.sort(partsAsInts);
         return partsAsInts;
     }
 

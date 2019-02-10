@@ -38,6 +38,14 @@ public class InputParserTest {
     }
 
     @Test
+    public void parseInvertedRange() {
+        InputParser parser = new InputParser("10...5");
+        assertEquals(parser.range.size(), 2);
+        assertEquals(parser.range.get(0), 5);
+        assertEquals(parser.range.get(1), 10);
+    }
+
+    @Test
     public void parseFailingValue() {
         Assertions.assertThrows(NumberFormatException.class, () -> {
             InputParser parser = new InputParser("150 200");

@@ -24,12 +24,7 @@ public class UserInterface {
             userInput = new UserInput(scanInput);
             if (userInput.isRange) {
                 // get actual prime number data
-//                List<Integer> primes = primeGenerator.generate(userInput.minRange, userInput.maxRange);
-                List<Integer> primes = new ArrayList<Integer>();
-                primes.add(5);
-                primes.add(10);
-                printList(primes);
-                System.out.println("\nWOOOOOOOOOOOH");
+                List<Integer> primes = primeGenerator.generate(userInput.minRange, userInput.maxRange);
             } else if (userInput.isNo) {
                 run = false;
             } else {
@@ -46,11 +41,11 @@ public class UserInterface {
         System.out.println(MISUNDERSTOOD);
     }
 
-    private void printList(List<Integer> listToPrint) {
+ /*   private void printList(List<Integer> listToPrint) {
         String output = "";
         for(Integer intToPrint: listToPrint ){
             output += intToPrint.toString() + ", ";
         }
         System.out.print(output.substring(0, output.length() - 2));
-    }
+    }*/
 }

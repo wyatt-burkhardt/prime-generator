@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class InputParserTest {
-//    InputParser parser = new InputParser();
 
     @Test
     public void parseStandardInput() {
@@ -42,6 +41,27 @@ public class InputParserTest {
     public void parseFailingValue() {
         Assertions.assertThrows(NumberFormatException.class, () -> {
             InputParser parser = new InputParser("150 200");
+        });
+    }
+
+    @Test
+    public void parseLetters() {
+        Assertions.assertThrows(NumberFormatException.class, () -> {
+            InputParser parser = new InputParser("abcde");
+        });
+    }
+
+    @Test
+    public void parseShortenedData(){
+        Assertions.assertThrows(NumberFormatException.class, () -> {
+            InputParser parser = new InputParser("15..25");
+        });
+    }
+
+    @Test
+    public void parseSpecialCharacters() {
+        Assertions.assertThrows(NumberFormatException.class, () -> {
+            InputParser parser = new InputParser("%^@&*");
         });
     }
 }

@@ -27,8 +27,6 @@ public class InputParser {
         List<String> cleaned = strings.stream()
                 .filter(item -> !item.isEmpty())
                 .collect(Collectors.toList());
-
-
         return cleaned;
     }
 }

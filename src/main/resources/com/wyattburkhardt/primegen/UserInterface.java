@@ -1,6 +1,8 @@
 package main.resources.com.wyattburkhardt.primegen;
 
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class UserInterface {
@@ -8,8 +10,10 @@ public class UserInterface {
     private static final String MISUNDERSTOOD = "I'm sorry I don't understand";
     private Scanner scanner;
     private UserInput userInput;
+    private PrimeGeneratorEratosthenes primeGenerator;
     public UserInterface() {
         scanner = new Scanner(System.in);
+        primeGenerator = new PrimeGeneratorEratosthenes();
     }
 
     public void runInputLoop() {
@@ -18,10 +22,14 @@ public class UserInterface {
             printRequest();
             String scanInput = scanner.next();
             userInput = new UserInput(scanInput);
-            PrimeGeneratorEratosthenes generator = new PrimeGeneratorEratosthenes();
             if (userInput.isRange) {
                 // get actual prime number data
-                System.out.println("WOOOOOOOOOOOH");
+//                List<Integer> primes = primeGenerator.generate(userInput.minRange, userInput.maxRange);
+                List<Integer> primes = new ArrayList<Integer>();
+                primes.add(5);
+                primes.add(10);
+                printList(primes);
+                System.out.println("\nWOOOOOOOOOOOH");
             } else if (userInput.isNo) {
                 run = false;
             } else {
@@ -36,5 +44,13 @@ public class UserInterface {
 
     private void printNotUnderstood() {
         System.out.println(MISUNDERSTOOD);
+    }
+
+    private void printList(List<Integer> listToPrint) {
+        String output = "";
+        for(Integer intToPrint: listToPrint ){
+            output += intToPrint.toString() + ", ";
+        }
+        System.out.print(output.substring(0, output.length() - 2));
     }
 }

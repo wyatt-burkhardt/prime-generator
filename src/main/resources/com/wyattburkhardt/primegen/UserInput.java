@@ -8,9 +8,11 @@ public class UserInput {
     public boolean isRange;
     public boolean isNo;
     public String value;
-    private Pattern rangePattern = Pattern.compile("^(?:[0-9]{0,}[.]{3}[0-9]{1,})");
+    private Pattern rangePattern = Pattern.compile("^[0-9]{0,}[.]{3}[0-9]{1,}");
+
     private Pattern endProgram = Pattern.compile("[Nn]");
-    private Pattern singleNumber = Pattern.compile("\\d+");
+    private Pattern singleNumber = Pattern.compile("^[^-][0-9]*");
+    private Pattern ensureOnlyNumbers = Pattern.compile("^[0-9]*$");
     private InputParser parser;
 
     public UserInput(String input) {
@@ -24,7 +26,11 @@ public class UserInput {
         if (rangePattern.matcher(value).find()){
             return true;
         } else if (singleNumberCheck()){
-            return true;
+            if (ensureOnlyNumbersCheck()) {
+                return true;
+            } else {
+                return false;
+            }
         } else {
             return false;
         }
@@ -33,6 +39,10 @@ public class UserInput {
 
     private boolean singleNumberCheck() {
         return singleNumber.matcher(value).find();
+    }
+
+    private boolean ensureOnlyNumbersCheck() {
+        return ensureOnlyNumbers.matcher(value).find();
     }
     private boolean endPatternCheck() {
         return endProgram.matcher(value).find();
@@ -46,6 +56,7 @@ public class UserInput {
                 maxRange = parser.range.get(1);
             } else {
                 maxRange = parser.range.get(0);
+                minRange = 0;
             }
         }
     }

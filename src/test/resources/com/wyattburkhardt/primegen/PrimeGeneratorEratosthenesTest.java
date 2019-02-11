@@ -1,22 +1,35 @@
 package resources.com.wyattburkhardt.primegen;
 
 import main.resources.com.wyattburkhardt.primegen.PrimeGeneratorEratosthenes;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PrimeGeneratorEratosthenesTest {
+    PrimeGeneratorEratosthenes generator = new PrimeGeneratorEratosthenes();
+
 
     @Test
     public void testStandardRange() {
+        List<Integer> fiveToHundredExpected = Arrays.asList(5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97);
+        assertEquals(fiveToHundredExpected, generator.generate(5, 100));
+    }
 
-        List<Integer> expected = new ArrayList<Integer>();[5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
+    @Test
+    public void testReverseStandard() {
+        List<Integer> emptyExpected = Arrays.asList();
+        assertEquals(emptyExpected, generator.generate(100, 5));
+    }
 
-        PrimeGeneratorEratosthenes generator = new PrimeGeneratorEratosthenes();
-        assertEquals(generator.generate(5, 100), expected);
-
+    @Test
+    public void testNullForMin() {
+        Assertions.assertThrows(ArrayIndexOutOfBoundsException.class, () -> {
+            generator.generate(-1, 100);
+        });
     }
 }

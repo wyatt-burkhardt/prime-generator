@@ -10,10 +10,10 @@ public class InputParser {
     public List<Integer> range;
 
     public InputParser(String input) {
-        range = parseInputToIntegers(input);
+        range = parseInputToRangeIntegers(input);
     }
 
-    public List<Integer> parseInputToIntegers(String input) {
+    public List<Integer> parseInputToRangeIntegers(String input) {
         List<String> parts = Arrays.asList(input.split("(?:[.]{3})"));
         List<String> cleanedValues = removeEmptyStrings(parts);
         List<Integer> partsAsInts = convertList(cleanedValues, s -> Integer.parseInt(s));

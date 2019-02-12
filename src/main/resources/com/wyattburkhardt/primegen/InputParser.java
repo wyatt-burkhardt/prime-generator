@@ -13,22 +13,21 @@ public class InputParser {
         range = parseInputToRangeIntegers(input);
     }
 
-    public List<Integer> parseInputToRangeIntegers(String input) {
+    private List<Integer> parseInputToRangeIntegers(String input) {
         List<String> parts = Arrays.asList(input.split("(?:[.]{3})"));
         List<String> cleanedValues = removeEmptyStrings(parts);
-        List<Integer> partsAsInts = convertList(cleanedValues, s -> Integer.parseInt(s));
+        List<Integer> partsAsInts = convertList(cleanedValues, Integer::parseInt);
         Collections.sort(partsAsInts);
         return partsAsInts;
     }
 
-    public static <T, U> List<U> convertList(List<T> from, Function<T, U> func) {
+    private static <T, U> List<U> convertList(List<T> from, Function<T, U> func) {
         return from.stream().map(func).collect(Collectors.toList());
     }
 
     private List<String> removeEmptyStrings(List<String> strings) {
-        List<String> cleaned = strings.stream()
+        return strings.stream()
                 .filter(item -> !item.isEmpty())
                 .collect(Collectors.toList());
-        return cleaned;
     }
 }

@@ -37,8 +37,8 @@ public class PrimeGeneratorEratosthenes implements PrimeNumberGenerator {
 
     public void printRange(List<Integer> primes) {
         StringBuilder output = new StringBuilder("The prime numbers within the selected range are:\n");
-        for(Integer intToPrint: primes ){
-            output.append(intToPrint.toString()).append(", ");
+        for (int i = 0; i < primes.size(); i++){
+            output.append(primes.get(i).toString()).append(", ");
         }
         System.out.println(output.substring(0, output.length() - 2) + "\n");
     }

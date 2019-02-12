@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class UserInputTest {
+class UserInputTest {
 
 
     @Test
-    public void testIsRange() {
+    void testIsRange() {
         UserInput input = new UserInput("5...10");
         assertEquals("5...10", input.value);
         assertFalse(input.isNo);
@@ -19,7 +19,7 @@ public class UserInputTest {
     }
 
     @Test
-    public void testIsUpToRange() {
+    void testIsUpToRange() {
         UserInput upToInput = new UserInput("...20");
         assertEquals("...20", upToInput.value);
         assertFalse(upToInput.isNo);
@@ -29,7 +29,7 @@ public class UserInputTest {
     }
 
     @Test
-    public void testSingleValue() {
+    void testSingleValue() {
         UserInput singleInput = new UserInput("25");
         assertEquals("25", singleInput.value);
         assertFalse(singleInput.isNo);
@@ -38,7 +38,7 @@ public class UserInputTest {
         assertEquals(25, singleInput.maxRange);
     }
     @Test
-    public void testEndProgram() {
+    void testEndProgram() {
         UserInput endInput = new UserInput("n");
         assertEquals("n", endInput.value);
         assertTrue(endInput.isNo);
@@ -48,7 +48,7 @@ public class UserInputTest {
     }
 
     @Test
-    public void testNegativeFirst() {
+    void testNegativeFirst() {
         UserInput negativeInput = new UserInput("-5...25");
         assertEquals("-5...25", negativeInput.value);
         assertFalse(negativeInput.isNo);
@@ -58,7 +58,7 @@ public class UserInputTest {
     }
 
     @Test
-    public void testNegativeSecond() {
+    void testNegativeSecond() {
         UserInput negativeInput = new UserInput("5...-25");
         assertEquals("5...-25", negativeInput.value);
         assertFalse(negativeInput.isNo);
@@ -68,7 +68,7 @@ public class UserInputTest {
     }
 
     @Test
-    public void testInvalidOption() {
+    void testInvalidOption() {
         UserInput invalidInput = new UserInput("test");
         assertEquals("test", invalidInput.value);
         assertFalse(invalidInput.isNo);

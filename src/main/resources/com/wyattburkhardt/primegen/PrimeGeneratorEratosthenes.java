@@ -4,13 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PrimeGeneratorEratosthenes implements PrimeNumberGenerator {
-    private static boolean prime[];
-    public PrimeGeneratorEratosthenes() { }
-
+    private static boolean[] prime;
 
     @Override
     public List<Integer> generate(int startingValue, int endingValue) {
-
         prime = new boolean[endingValue+1];
         for(int i = 2; i <= endingValue; i++)
             prime[i] = true;
@@ -30,7 +27,7 @@ public class PrimeGeneratorEratosthenes implements PrimeNumberGenerator {
     }
 
     private List<Integer> getPrimesInRange(int startingValue, int endingValue) {
-        List<Integer> primesInRange = new ArrayList<Integer>();
+        List<Integer> primesInRange = new ArrayList<>();
         for (int i = startingValue; i <= endingValue; i++) {
             if (isPrime(i))
                 primesInRange.add(i);
@@ -39,10 +36,10 @@ public class PrimeGeneratorEratosthenes implements PrimeNumberGenerator {
     }
 
     public void printRange(List<Integer> primes) {
-        String output = "The prime numbers within the selected range are:\n";
+        StringBuilder output = new StringBuilder("The prime numbers within the selected range are:\n");
         for(Integer intToPrint: primes ){
-            output += intToPrint.toString() + ", ";
+            output.append(intToPrint.toString()).append(", ");
         }
-        System.out.println(output.substring(0, output.length() - 2));
+        System.out.println(output.substring(0, output.length() - 2) + "\n");
     }
 }

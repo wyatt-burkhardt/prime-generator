@@ -8,29 +8,29 @@ public class UserInput {
     public boolean isRange;
     public boolean isNo;
     public String value;
-    private Pattern rangePattern = Pattern.compile("^[0-9]{0,}[.]{3}[0-9]{1,}");
+    private Pattern rangePattern;
 
-    private Pattern endProgram = Pattern.compile("[Nn]");
-    private Pattern singleNumber = Pattern.compile("^[^-][0-9]*");
-    private Pattern ensureOnlyNumbers = Pattern.compile("^[0-9]*$");
-    private InputParser parser;
+    private Pattern endProgram;
+    private Pattern singleNumber;
+    private Pattern ensureOnlyNumbers;
 
     public UserInput(String input) {
+        rangePattern = Pattern.compile("^[0-9]*[.]{3}[0-9]+");
+        endProgram = Pattern.compile("[Nn]");
+        singleNumber = Pattern.compile("^[^-][0-9]*");
+        ensureOnlyNumbers = Pattern.compile("^[0-9]*$");
         value = input;
         isRange = rangePatternCheck();
         isNo = endPatternCheck();
         parseValue();
+
     }
 
     private boolean rangePatternCheck() {
         if (rangePattern.matcher(value).find()){
             return true;
         } else if (singleNumberCheck()){
-            if (ensureOnlyNumbersCheck()) {
-                return true;
-            } else {
-                return false;
-            }
+            return ensureOnlyNumbersCheck();
         } else {
             return false;
         }
@@ -50,7 +50,7 @@ public class UserInput {
 
     private void parseValue() {
         if (isRange) {
-            parser = new InputParser(value);
+            InputParser parser = new InputParser(value);
             if(parser.range.size() == 2) {
                 minRange = parser.range.get(0);
                 maxRange = parser.range.get(1);

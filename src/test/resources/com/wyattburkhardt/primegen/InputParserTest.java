@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class InputParserTest {
+class InputParserTest {
 
     @Test
-    public void parseStandardInput() {
+    void parseStandardInput() {
         InputParser parser = new InputParser("5...10");
         assertEquals(parser.range.size(), 2);
         assertEquals(parser.range.get(0), 5);
@@ -16,7 +16,7 @@ public class InputParserTest {
     }
 
     @Test
-    public void parseLargeInputs() {
+    void parseLargeInputs() {
         InputParser parser = new InputParser("1000000...3000000");
         assertEquals(parser.range.size(), 2);
         assertEquals(parser.range.get(0), 1000000);
@@ -24,21 +24,21 @@ public class InputParserTest {
     }
 
     @Test
-    public void parseMaxValue() {
+    void parseMaxValue() {
         InputParser parser = new InputParser("...150");
         assertEquals(parser.range.size(), 1);
         assertEquals(parser.range.get(0), 150);
     }
 
     @Test
-    public void parseSingleValue() {
+    void parseSingleValue() {
         InputParser parser = new InputParser("150");
         assertEquals(parser.range.size(), 1);
         assertEquals(parser.range.get(0), 150);
     }
 
     @Test
-    public void parseInvertedRange() {
+    void parseInvertedRange() {
         InputParser parser = new InputParser("10...5");
         assertEquals(parser.range.size(), 2);
         assertEquals(parser.range.get(0), 5);
@@ -46,31 +46,23 @@ public class InputParserTest {
     }
 
     @Test
-    public void parseFailingValue() {
-        Assertions.assertThrows(NumberFormatException.class, () -> {
-            InputParser parser = new InputParser("150 200");
-        });
+    void parseFailingValue() {
+        Assertions.assertThrows(NumberFormatException.class, () -> new InputParser("150 200"));
     }
 
     @Test
-    public void parseLetters() {
-        Assertions.assertThrows(NumberFormatException.class, () -> {
-            InputParser parser = new InputParser("abcde");
-        });
+    void parseLetters() {
+        Assertions.assertThrows(NumberFormatException.class, () -> new InputParser("abcde"));
     }
 
     @Test
-    public void parseShortenedData(){
-        Assertions.assertThrows(NumberFormatException.class, () -> {
-            InputParser parser = new InputParser("15..25");
-        });
+    void parseShortenedData(){
+        Assertions.assertThrows(NumberFormatException.class, () -> new InputParser("15..25"));
     }
 
     @Test
-    public void parseSpecialCharacters() {
-        Assertions.assertThrows(NumberFormatException.class, () -> {
-            InputParser parser = new InputParser("%^@&*");
-        });
+    void parseSpecialCharacters() {
+        Assertions.assertThrows(NumberFormatException.class, () -> new InputParser("%^@&*"));
     }
 
 }

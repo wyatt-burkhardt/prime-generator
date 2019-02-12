@@ -9,8 +9,6 @@ public class UserInterface {
     private static final String INPUT_REQUEST = "Please enter a range of numbers (ex: 5...10) (enter \"n\" to quit)";
     private static final String MISUNDERSTOOD = "I'm sorry I don't understand";
     private static final String GOODBYE = "Goodbye!";
-    public Scanner scanner;
-    private UserInput userInput;
     private PrimeGeneratorEratosthenes primeGenerator;
 
     public UserInterface() {
@@ -23,10 +21,9 @@ public class UserInterface {
     }
 
     public UserInput getUserInput(InputStream in) {
-        scanner = new Scanner(in);
+        Scanner scanner = new Scanner(in);
         String scanInput = scanner.next();
-        userInput = new UserInput(scanInput);
-        return userInput;
+        return new UserInput(scanInput);
     }
 
     public List<Integer> getPrimeNumbers(UserInput input) {

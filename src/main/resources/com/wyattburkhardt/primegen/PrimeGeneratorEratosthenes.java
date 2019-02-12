@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PrimeGeneratorEratosthenes implements PrimeNumberGenerator {
-    static boolean prime[];
+    private static boolean prime[];
     public PrimeGeneratorEratosthenes() { }
 
 
@@ -16,13 +16,12 @@ public class PrimeGeneratorEratosthenes implements PrimeNumberGenerator {
             prime[i] = true;
 
         for (int p = 2; p * p <= endingValue; p++) {
-            if(prime[p] == true) {
+            if(prime[p]) {
                 for (int i = p * p; i <= endingValue; i += p)
                     prime[i] = false;
             }
         }
-        List<Integer> primesInRange = getPrimesInRange(startingValue, endingValue);
-        return primesInRange;
+        return getPrimesInRange(startingValue, endingValue);
     }
 
     @Override

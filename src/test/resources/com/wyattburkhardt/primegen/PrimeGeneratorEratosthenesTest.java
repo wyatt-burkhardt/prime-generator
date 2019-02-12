@@ -4,6 +4,8 @@ import main.resources.com.wyattburkhardt.primegen.PrimeGeneratorEratosthenes;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.List;
 
@@ -36,5 +38,15 @@ public class PrimeGeneratorEratosthenesTest {
     public void testProvidedRange() {
         List<Integer> expected = Arrays.asList(7901, 7907, 7919);
         assertEquals(expected, generator.generate(7900, 7920));
+    }
+
+    @Test
+    public void testPrintRange() {
+        List<Integer> primes = Arrays.asList(7901, 7907, 7919);
+        String expected = "The prime numbers within the selected range are:\n7901, 7907, 7919\n";
+        final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        generator.printRange(primes);
+        assertEquals(expected, outContent.toString());
     }
 }

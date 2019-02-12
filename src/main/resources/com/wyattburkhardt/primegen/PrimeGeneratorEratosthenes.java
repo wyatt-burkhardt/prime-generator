@@ -5,7 +5,6 @@ import java.util.List;
 
 public class PrimeGeneratorEratosthenes implements PrimeNumberGenerator {
     static boolean prime[];
-//    static List<Integer> primesInRange;
     public PrimeGeneratorEratosthenes() { }
 
 
@@ -23,7 +22,6 @@ public class PrimeGeneratorEratosthenes implements PrimeNumberGenerator {
             }
         }
         List<Integer> primesInRange = getPrimesInRange(startingValue, endingValue);
-        printRange(primesInRange);
         return primesInRange;
     }
 
@@ -41,7 +39,7 @@ public class PrimeGeneratorEratosthenes implements PrimeNumberGenerator {
         return primesInRange;
     }
 
-    private void printRange(List<Integer> primes) {
+    public void printRange(List<Integer> primes) {
         String output = "The prime numbers within the selected range are:\n";
         for(Integer intToPrint: primes ){
             output += intToPrint.toString() + ", ";

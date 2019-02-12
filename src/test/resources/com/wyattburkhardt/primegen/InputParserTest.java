@@ -72,4 +72,5 @@ public class InputParserTest {
             InputParser parser = new InputParser("%^@&*");
         });
     }
+
 }

@@ -4,7 +4,6 @@ import main.resources.com.wyattburkhardt.primegen.PrimeGeneratorEratosthenes;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -31,5 +30,11 @@ public class PrimeGeneratorEratosthenesTest {
         Assertions.assertThrows(ArrayIndexOutOfBoundsException.class, () -> {
             generator.generate(-1, 100);
         });
+    }
+
+    @Test
+    public void testProvidedRange() {
+        List<Integer> expected = Arrays.asList(7901, 7907, 7919);
+        assertEquals(expected, generator.generate(7900, 7920));
     }
 }

@@ -69,6 +69,7 @@ To quit the program, and stop specifying number ranges to generate, simply enter
 If the above instructions on opening the application in IntelliJ IDEA were successful, you can now run the unit tests as well.
 
 Click on the same "configurations" drop-down you used to select "Application" to run the project, but instead select "Edit Configurations".
+
 ![configurations](/img/edit-configurations.png)
 
 Click the "+" symbol located in the upper-left corner of the configurations window and select JUnit.

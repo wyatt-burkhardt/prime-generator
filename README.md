@@ -22,7 +22,7 @@ Start by opening a new Terminal window and cloning this repo.  Alternatively, yo
 
 After cloning the repository you can actually run the included jar directly with the following command: 
 ```
-    java -jar out/artifacts/primeGen_jar/primeGen.jar
+    java -jar prime-generator/out/artifacts/primeGen_jar/primeGen.jar
 ```
 [Jump to valid inputs](#Valid-Inputs)
 
